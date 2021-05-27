@@ -38,9 +38,7 @@ app.get('/discos', function(req, res) {
         resultados = resultados.filter((disco) => disco.lanzamiento.toString() == lanzamiento);
 
     }
-    if (artista && titulo && lanzamiento) {
 
-    }
 
     res.json(resultados);
 })
